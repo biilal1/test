@@ -1,9 +1,9 @@
 <?php
-define('mrax',"توكنك");//توكن البوت
+define('mrax',"7206412686:AAHkxPqgpY9Py12foQMa1d81MlOhOnMp5h0");//توكن البوت
 
 
-$admin = "ايدي";//ايدى مالك البوت
-$adminuser = "يوزر";//يوزرك بدون@
+$admin = "ايدي"7191837036
+$adminuser = "‏Sai_5s"
 
 function bot($method,$datas=[]){
     $url = "https://api.telegram.org/bot".mrax."/".$method;
@@ -43,7 +43,7 @@ function joinchat($chatid){
         return true;
     } else {
         bot('deleteMessage',[
-        'chat_id'=>"@AX_GB",
+        'chat_id'=>"@pydrod",
         'message_id'=>$cmid
         ]); 
         bot('sendMessage',[
@@ -55,7 +55,7 @@ function joinchat($chatid){
 'disable_web_page_preview'=>true,
 'reply_markup'=>json_encode([
 'inline_keyboard'=>[
-[["text"=>"➕ محتوي برمجي","url"=>"https://t.me/AX_GB"],],
+[["text"=>"➕ محتوي برمجي","url"=>"https://t.me/pydrodة"],],
 [["text"=>"✅ تاكيد","callback_data"=>"tekshir"],],
 ]
 ]),
@@ -574,8 +574,8 @@ if($tx == "📁ملفات بوتات" and joinchat($fid)=="true"){
 if($data == "qorovulphp"){
     bot('sendDocument',[
     'chat_id'=>$ccid,
-     'document'=>"https://t.me/AX_GB/2122",
-        'caption'=>"ملف تابع لى قناه مستر اكس @AX_GB ✅",
+     'document'=>"https://t.me/pydrod",
+        'caption'=>"ملف تابع لى قناه مستر اكس @pydrod ✅",
 ]);
 }
 
@@ -583,16 +583,16 @@ if($data == "qorovulphp"){
 if($data == "webhookphp"){
     bot('sendDocument',[
     'chat_id'=>$ccid,
-     'document'=>"https://t.me/AX_GB/185",
-        'caption'=>"ملف تابع لى قناه مستر اكس @AX_GB ✅",
+     'document'=>"https://t.me/pydrod",
+        'caption'=>"ملف تابع لى قناه مستر اكس @pydrod ✅",
 ]);
 }
 
 if($data == "uzgramphp"){
     bot('sendDocument',[
     'chat_id'=>$ccid,
-     'document'=>"https://t.me/AX_GB/2107",
-        'caption'=>"ملف تابع لى قناه مستر اكس @AX_GB ✅",
+     'document'=>"https://t.me/pydrod",
+        'caption'=>"ملف تابع لى قناه مستر اكس @pydrod ✅",
 ]);
 }
 
@@ -600,7 +600,7 @@ if($data == "ramazonphp"){
     bot('sendDocument',[
     'chat_id'=>$ccid,
      'document'=>"https://t.me/AX_GB/2234",
-        'caption'=>"ملف تابع لى قناه مستر اكس @AX_GB ✅",
+        'caption'=>"ملف تابع لى قناه مستر اكس @pydrod ✅",
 ]);
 }
 
@@ -608,7 +608,7 @@ if($data == "telbozorphp"){
     bot('sendDocument',[
     'chat_id'=>$ccid,
      'document'=>"https://t.me/AX_GB/2144",
-        'caption'=>"ملف تابع لى قناه مستر اكس @AX_GB ✅",
+        'caption'=>"ملف تابع لى قناه مستر اكس @pydrod ✅",
 ]);
 }
 
@@ -616,7 +616,7 @@ if($data == "konspektphp"){
     bot('sendDocument',[
     'chat_id'=>$ccid,
      'document'=>"https://t.me/AX_GB/2163",
-        'caption'=>"ملف تابع لى قناه مستر اكس @AX_GB ✅",
+        'caption'=>"ملف تابع لى قناه مستر اكس @pydrod ✅",
 ]);
 }
 
@@ -624,7 +624,7 @@ if($data == "logomakerphp"){
     bot('sendDocument',[
     'chat_id'=>$ccid,
      'document'=>"https://t.me/AX_GB/2237",
-        'caption'=>"ملف تابع لى قناه مستر اكس @AX_GB ✅",
+        'caption'=>"ملف تابع لى قناه مستر اكس @pydrod ✅",
 ]);
 }
 
@@ -632,7 +632,7 @@ if($data == "nikphp"){
     bot('sendDocument',[
     'chat_id'=>$ccid,
      'document'=>"https://t.me/AX_GB/2161",
-        'caption'=>"ملف تابع لى قناه مستر اكس @AX_GB ✅",
+        'caption'=>"ملف تابع لى قناه مستر اكس @pydrod ✅",
 ]);
 }
 
@@ -640,7 +640,7 @@ if($data == "konvertorphp"){
     bot('sendDocument',[
     'chat_id'=>$ccid,
      'document'=>"https://t.me/AX_GB/2143",
-        'caption'=>"ملف تابع لى قناه مستر اكس @AX_GB ✅",
+        'caption'=>"ملف تابع لى قناه مستر اكس @pydrod ✅",
 ]);
 }
 
@@ -648,14 +648,14 @@ if($data == "elonphp"){
     bot('sendDocument',[
     'chat_id'=>$ccid,
      'document'=>"https://t.me/AX_GB/2141",
-        'caption'=>"ملف تابع لى قناه مستر اكس @AX_GB ✅",
+        'caption'=>"ملف تابع لى قناه مستر اكس @pydrod ✅",
 ]);
 }
 if($data == "pulphp"){
     bot('sendDocument',[
     'chat_id'=>$ccid,
      'document'=>"https://t.me/AX_GB/2081",
-        'caption'=>"ملف تابع لى قناه مستر اكس @AX_GB ✅",
+        'caption'=>"ملف تابع لى قناه مستر اكس @pydrod ✅",
 ]);
 }
 
@@ -685,21 +685,21 @@ if($data == "vkmphp2"){
     bot('sendDocument',[
     'chat_id'=>$ccid,
      'document'=>"https://t.me/AX_GB/976?single",
-        'caption'=>"ملف تابع لى قناه مستر اكس @AX_GB ✅",
+        'caption'=>"ملف تابع لى قناه مستر اكس @pydrod ✅",
 ]);
 }
 if($data == "wpseenphp2"){
     bot('sendDocument',[
     'chat_id'=>$ccid,
      'document'=>"https://t.me/AX_GB/1314",
-        'caption'=>"ملف تابع لى قناه مستر اكس @AX_GB ✅",
+        'caption'=>"ملف تابع لى قناه مستر اكس @pydrod ✅",
 ]);
 }
 if($data == "TGmakerphp2"){
     bot('sendDocument',[
     'chat_id'=>$ccid,
      'document'=>"https://t.me/AX_GB/1280",
-        'caption'=>"ملف تابع لى قناه مستر اكس @AX_GB ✅",
+        'caption'=>"ملف تابع لى قناه مستر اكس @pydrod ✅",
 ]);
 }
 
@@ -708,7 +708,7 @@ if($data == "aloqaphp2"){
     bot('sendDocument',[
     'chat_id'=>$ccid,
      'document'=>"https://t.me/AX_GB/1200",
-        'caption'=>"ملف تابع لى قناه مستر اكس @AX_GB ✅",
+        'caption'=>"ملف تابع لى قناه مستر اكس @pydrod ✅",
 ]);
 }
 
@@ -716,7 +716,7 @@ if($data == "Musiqaphp2"){
     bot('sendDocument',[
     'chat_id'=>$ccid,
      'document'=>"https://t.me/AX_GB/1109",
-        'caption'=>"ملف تابع لى قناه مستر اكس @AX_GB ✅",
+        'caption'=>"ملف تابع لى قناه مستر اكس @pydrod ✅",
 ]);
 }
 
@@ -725,7 +725,7 @@ if($data == "axchapulphp2"){
     bot('sendDocument',[
     'chat_id'=>$ccid,
      'document'=>"https://t.me/AX_GB/1105",
-        'caption'=>"ملف تابع لى قناه مستر اكس @AX_GB ✅",
+        'caption'=>"ملف تابع لى قناه مستر اكس @pydrod ✅",
 ]);
 }
 
@@ -733,7 +733,7 @@ if($data == "harfvideophp2"){
     bot('sendDocument',[
     'chat_id'=>$ccid,
      'document'=>"https://t.me/AX_GB/1060",
-        'caption'=>"ملف تابع لى قناه مستر اكس @AX_GB ✅",
+        'caption'=>"ملف تابع لى قناه مستر اكس @pydrod ✅",
 ]);
 }
 
@@ -761,7 +761,7 @@ if($data == "sharepostpy"){
     bot('sendDocument',[
     'chat_id'=>$ccid,
      'document'=>"https://t.me/AX_GB/790",
-        'caption'=>"ملف تابع لى قناه مستر اكس @AX_GB ✅",
+        'caption'=>"ملف تابع لى قناه مستر اكس @pydrod ✅",
 ]);
 }
 
@@ -769,7 +769,7 @@ if($data == "vikipediyapy"){
     bot('sendDocument',[
     'chat_id'=>$ccid,
      'document'=>"https://t.me/AX_GB/249",
-        'caption'=>"ملف تابع لى قناه مستر اكس @AX_GB ✅",
+        'caption'=>"ملف تابع لى قناه مستر اكس @pydrod ✅",
 ]);
 }
 
@@ -777,7 +777,7 @@ if($data == "calendarpy"){
     bot('sendDocument',[
     'chat_id'=>$ccid,
      'document'=>"https://t.me/AX_GB/248",
-        'caption'=>"ملف تابع لى قناه مستر اكس @AX_GB ✅",
+        'caption'=>"ملف تابع لى قناه مستر اكس @pydrod ✅",
 ]);
 }
 if($tx == "💼محفظتك" and joinchat($fid)=="true"){
